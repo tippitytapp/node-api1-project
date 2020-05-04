@@ -1,0 +1,30 @@
+{
+  "name": "api1-project",
+  "version": "1.0.0",
+  "description": "Web Unit 4 Day 1 Afternoon Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run server",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tippitytapp/node-api1-project.git"
+  },
+  "author": "Marc Tapp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tippitytapp/node-api1-project/issues"
+  },
+  "homepage": "https://github.com/tippitytapp/node-api1-project#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "shortid": "^2.2.15",
+    "superstruct": "^0.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
