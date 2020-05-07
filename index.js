@@ -6,15 +6,15 @@ const cors = require('cors');
 
 // create server and port
 const server = express();
-const PORT = 8501;
+const port = process.env.PORT || 8502;
 
 // let express read json
 server.use(express.json());
 server.use(cors());
 
 // server initialization
-server.listen(PORT, () => {
-    console.log('\n == SERVER IS LISTENING ON PORT 8501 == \n'.magenta.bold)
+server.listen(port, () => {
+    console.log('\n == SERVER IS LISTENING ON PORT 8502 == \n'.bgMagenta.bold)
 });
 // set initial users
 let users = [

@@ -19,7 +19,7 @@ const changeHandler =e => {
 
 const handleSubmit = e => {
     e.preventDefault();
-    axios.put(`http://localhost:8501/api/users/${props.users.id}`, user)
+    axios.put(`http://localhost:8502/api/users/${props.users.id}`, user)
     .then(res => {
         console.log(res);
         history.push('/');
